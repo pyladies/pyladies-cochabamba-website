@@ -211,7 +211,7 @@ h1,h2,h3,h4 {
 }
 
 .skyline {
-	background-image: url('images/skyline.jpg');
+	background-image: url('images/cbba.jpg');
 	height: 450px;
 	background-size:cover;
 }
@@ -222,7 +222,7 @@ h1,h2,h3,h4 {
 	display: block;
 }
 
-@media (min-width: 750px) {
+ @media (min-width: 750px) {
 	.skyline {
 		height: 650px;
 	}
@@ -232,7 +232,7 @@ h1,h2,h3,h4 {
 	.skyline {
 		height: 750px;
 	}
-}
+} 
 
 /* --- bios ------------- */
 .bio-container {
