@@ -78,10 +78,10 @@ p {
 
 @media (min-width: 750px) {
 	#floating-logo  {
-		width: 500px;
-		height: 250px;
-		top: 30%;
-		left: 50%;
+		width: 400px;
+		height: 185px;
+		top: 50%;
+		left: 55%;
 		margin-left: -250px;
 	}
 }
@@ -212,9 +212,9 @@ h1,h2,h3,h4 {
 }
 
 .skyline {
-	background-image: url('images/skyline.jpg');
+	background-image: url('images/cat2.jpg');
 	height: 450px;
-	background-size:cover;
+	background-size:100% 800px;
 }
 
 .aurimas {
@@ -223,7 +223,7 @@ h1,h2,h3,h4 {
 	display: block;
 }
 
-@media (min-width: 750px) {
+ @media (min-width: 750px) {
 	.skyline {
 		height: 650px;
 	}
@@ -233,7 +233,7 @@ h1,h2,h3,h4 {
 	.skyline {
 		height: 750px;
 	}
-}
+} 
 
 /* --- bios ------------- */
 .bio-container {
