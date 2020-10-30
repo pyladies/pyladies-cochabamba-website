@@ -67,46 +67,33 @@ p {
 #floating-logo {
 	position: absolute;
 	display: block;
-	width: 275px;
-	height: 125px;
-	top: 25%;
-	left: 50%;
-	margin-left: -136px;
+	width: 175px;
+	height: 80px;
+	top: 10%;
+	left: 35%;
 }
 
 @media (min-width: 500px) {
 	#floating-logo  {
-		width: 400px;
-		height: 170px;
-		top: 25%;
-		left: 50%;
-		margin-left: -200px;
+		top: 34%;
+		left: 38%;
 	}
 }
 
 @media (min-width: 750px) {
 	#floating-logo  {
-		width: 400px;
-		height: 185px;
-		top: 50%;
-		left: 55%;
-		margin-left: -250px;
+		width: 360px;
+		height: 155px;
+		top: 16%;
+		left: 34%;
 	}
 }
 
-
-/* @media only screen and (min-width: 420px) {
-	#floating-logo {
-		position: absolute;
-		display: block;
-		width: 400px;
-		height: 175px;
-		top: 15%;
-		left: 45%;
-		margin-left: -136px;
+@media (min-width: 750px) {
+	#floating-logo  {
+		left: 40%;
 	}
-} */
-
+}
 
 #logoimage{
 	width:27px;
@@ -220,28 +207,23 @@ h1,h2,h3,h4 {
 }
 
 .skyline {
-	background-image: url('images/cat2.jpg');
-	height: 450px;
-	background-size:100% 800px;
+	background-image: url('https://upload.wikimedia.org/wikipedia/commons/4/4d/Vista_Aerea_del_Cristo_de_la_Concordia.jpg');
+	height: 350px			;
+	background-size:100% 350px;
 }
 
 .aurimas {
-	font-size: 12px;
+	font-size: 10px;
 	margin-left: 5px;
 	display: block;
 }
 
  @media (min-width: 750px) {
 	.skyline {
-		height: 650px;
+		height: 650px			;
+		background-size:100% 650px;
 	}
 }
-
-@media (min-width: 1824px) {
-	.skyline {
-		height: 750px;
-	}
-} 
 
 /* --- bios ------------- */
 .bio-container {
@@ -318,6 +300,22 @@ span.fa {
 	font-size: 24px;
 }
 
+.tarjeta-evento p {
+	margin-bottom: 0px;
+	font-size: 16px;
+}
+
+p.tarjeta-evento-titulo {
+	padding: 25px 25px 0px 25px;
+	font-size: 22px;
+	color: black;
+}
+
+.tarjeta-evento-cuerpo {
+	padding: 25px;
+	color: rgba(0,0,0,.7);
+}
+
 /* --- resources ----------- */
 .resource-container {
 	display: flex;
@@ -336,14 +334,14 @@ span.fa {
 
 .resource {
 	margin-bottom: 30px;
-    background: #fafafa;
-    height: 475px;
-    width: 320px;
-    padding-bottom: 25px;
-    box-shadow: 0 4px 10px 0 rgba(0,0,0,.1), 0 4px 20px 0 rgba(0,0,0,.1);
-    display: block;
-    text-align: left;
-    font-size: 16px;
+	background: #fafafa;
+	height: 475px;
+	width: 320px;
+	padding-bottom: 25px;
+	box-shadow: 0 4px 10px 0 rgba(0,0,0,.1), 0 4px 20px 0 rgba(0,0,0,.1);
+	display: block;
+	text-align: left;
+	font-size: 16px;
 }
 
 .resource p {
@@ -414,12 +412,12 @@ span.fa {
 
 .med-geek {
 	background-image: url('./images/pylady_geek.png');
-	background-size: contain;
+	background-size: cover;
 	display: block;
 	margin-left: 10px;
 	margin-right: auto;
-	width: 50px;
-	height: 50px;
+	width: 40px;
+	height: 40px;
 }
 
 @media (min-width: 400px) {
